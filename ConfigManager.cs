@@ -11,7 +11,14 @@ namespace ConfigManagerLib
         {
             _serializer = new XMLSerializer();
             ConfigPath = configPath;
-            Config = _serializer.Deserialize<T>(File.ReadAllText(ConfigPath));
+            try
+            {
+                Config = _serializer.Deserialize<T>(File.ReadAllText(ConfigPath));
+            }
+            catch
+            {
+                Config = new T();
+            }
         }
 
         /// <summary>
