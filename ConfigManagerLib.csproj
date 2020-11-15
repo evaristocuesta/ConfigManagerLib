@@ -13,7 +13,7 @@
     <PackageProjectUrl>https://github.com/evaristocuesta/ConfigManagerLib</PackageProjectUrl>
     <RepositoryUrl>https://github.com/evaristocuesta/ConfigManagerLib</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <PackageTags>Config manager library</PackageTags>
+    <PackageTags>Config file manager library xml</PackageTags>
     <Copyright>Copyright © 2020 Evaristo Cuesta</Copyright>
   </PropertyGroup>
 
